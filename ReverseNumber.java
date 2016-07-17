@@ -5,8 +5,7 @@ public class ReverseNumber {
 		
 
 		StringBuffer buffer = new StringBuffer(args[0]);
-		buffer.reverse();
-		System.out.println("Reversed number : "+buffer);
+		System.out.println("Reversed number : "+buffer.reverse());
 
 	}
 
