@@ -8,6 +8,7 @@ public class VowelOrConstant {
 		System.out.println("Enter a alphabetic character : ");
 		Scanner scanner = new Scanner(System.in);
 		String string = scanner.next();
+		string = string.toLowerCase();
 		char character = string.charAt(0);
 		scanner.close();
 		
